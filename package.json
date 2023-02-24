@@ -1,24 +1,54 @@
 {
-    "name": "hello-koa2",
-    "version": "1.0.0",
-    "description": "Hello Koa 2 example with async",
-    "main": "app.js",
-    "scripts": {
-        "start": "node app.js"
-    },
-    "keywords": [
-        "koa",
-        "async"
-    ],
-    "author": "Michael Liao",
-    "license": "Apache-2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/michaelliao/learn-javascript.git"
-    },
-    "dependencies": {
-        "koa": "2.0.0",
-        "koa-router": "7.0.0",
-        "koa-bodyparser": "3.2.0"
-    }
+  "name": "html-ssr",
+  "version": "1.0.0",
+  "description": "html to image",
+  "main": "./src/index.js",
+  "dependencies": {
+    "@types/amqplib": "^0.10.0",
+    "@types/generic-pool": "^3.1.11",
+    "amqplib": "^0.6.0",
+    "art-template": "^4.13.2",
+    "aws-sdk": "^2.1256.0",
+    "cross-env": "^7.0.3",
+    "generic-pool": "^3.9.0",
+    "js-base64": "^3.7.4",
+    "koa": "^2.13.4",
+    "koa-actuator": "^0.6.0",
+    "koa-art-template": "^1.1.1",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "koa2-timeout": "^0.1.0",
+    "moment": "^2.29.4",
+    "mysql2": "^3.1.2",
+    "prom-client": "^14.1.0",
+    "prometheus-api-metrics": "^3.2.2",
+    "puppeteer": "^19.2.2",
+    "request": "^2.88.2",
+    "sequelize": "^6.28.0",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa-router": "^7.4.4",
+    "@types/node": "^18.11.9",
+    "@types/puppeteer": "^7.0.4",
+    "@types/request": "^2.48.8",
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "deploy": "cross-env ENV_NAME=$ENV_NAME ACCESSKEYID=$ACCESSKEYID SECRETACCESSKEY=$SECRETACCESSKEY REGION=$REGION BUCKET=$BUCKET nodemon -e ts --exec ts-node ./src/index.ts",
+    "dev": "cross-env ENV_NAME=dev ACCESSKEYID=AKIARXG7LLNFWBPZXQCM SECRETACCESSKEY=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 REGION=cn-northwest-1 BUCKET=sihai-email-dev nodemon -e ts --exec ts-node ./src/index.ts",
+    "cluster": "cross-env ENV_NAME=dev nodemon -e ts --exec ts-node ./src/cluster.ts",
+    "debugger": "node --inspect-brk ./dist/src/index.js",
+    "build": "tsc"
+  },
+  "author": "chengqiang,likun",
+  "license": "ISC"
 }
