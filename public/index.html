@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <!-- Import style -->
+    <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css" />
+    <!-- Import Vue 3 -->
+    <script src="//unpkg.com/vue@3"></script>
+    <!-- Import component library -->
+    <script src="//unpkg.com/element-plus"></script>
+    <style>
+      .detail-content {
+        width: 600px;
+        margin: auto;
+        height: 600px;
+        overflow-y: scroll;
+      }
+    </style>
+</head>
+<body>
+
+  <div id="app">
+    <el-tabs type="border-card" v-model="activeName">
+      <el-tab-pane label="列表" name="list">
+        <el-table :data="tableData" style="width: 100%" height="600">
+          <el-table-column prop="title" label="标题"  >
+            <template #default="scope">
+              <a @click="handleDetail(scope.row)" >{{ scope.row.title }}</a>
+            </template>
+          </el-table-column>
+        </el-table>
+      </el-tab-pane>
+      <el-tab-pane :label="currTitle" name="detail">
+        <div class="detail-content" v-html="message"></div>
+      </el-tab-pane>
+    </el-tabs>
+  </div>
+  
+  <script>
+    const { createApp, ref } = Vue
+  
+    const app = createApp({
+      setup() {
+        const baseURL = 'http://www.weilaitianwang.info';
+        const message = ref('Hello vue!')
+        const pageType = ref('list'); // list | detail
+        const currTitle = ref('详情');
+        const activeName = ref('list');
+        const chapters = ref([]);
+        let tableData = ref([]);
+
+        async function teatchChapters() {
+          try {
+            const novelUrl = baseURL + '/44_44991/';
+            const res = await fetch('/novels/chapters', {
+              method: 'POST', // 指定请求方法为POST
+              headers: {
+                'Content-Type': 'application/json', // 设置请求头，告知服务器发送的是JSON数据
+              },
+              body: JSON.stringify({ novelUrl }), // 将novelUrl序列化为JSON放入请求体
+            });
+
+            if (!res.ok) {
+              throw new Error('网络错误');
+            }
+            
+            const data = await res.json();
+            
+            tableData.value = data.map(item => {
+              return {
+                title: item.title,
+                link: item.link
+              }
+            })
+          } catch (error) {
+            console.log(error)
+          }
+        }
+        teatchChapters();
+        const handleDetail = async (data) => {
+          console.log(data)
+          const res = await fetchChapterContent(baseURL + data.link);
+          
+          message.value =  res.content;
+          currTitle.value = data.title;
+
+          pageType.value = 'detail';
+          activeName.value = 'detail';
+        }
+
+        const fetchChapterContent = async (chapterUrl) => {
+          try {
+            const res = await fetch('/chapter/content', {
+              method: 'POST', // 指定请求方法为POST
+              headers: {
+                'Content-Type': 'application/json', // 设置请求头，告知服务器发送的是JSON数据
+              },
+              body: JSON.stringify({ chapterUrl }), // 将novelUrl序列化为JSON放入请求体
+            });
+
+            if (!res.ok) {
+              throw new Error(res.statusText || '网络错误'); 
+            }
+            
+            const data = await res.json();
+            
+            return data;
+          } catch (error) {
+            console.log(error)
+          }
+        }
+        
+        return {
+          message,
+          chapters,
+          tableData,
+          currTitle,
+          activeName,
+          handleDetail,
+          pageType
+        }
+      }
+    })
+    app.use(ElementPlus)
+    app.mount('#app')
+  </script>
+</body>
+</html>
