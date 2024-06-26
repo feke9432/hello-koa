@@ -14,3 +14,15 @@ export function isValidUrl(url: string): boolean {
 
   return true;
 }
+
+export async function apiBase (ctx: any, fetchFunc: any) {
+  try {
+    // 获取章节内容
+    const data = await fetchFunc();
+    console.log(data)
+    ctx.body = data;
+  } catch (error) {
+    ctx.status = 400; // Bad Request
+    ctx.body = { error: error };
+  }
+}

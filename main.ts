@@ -4,6 +4,7 @@ import Router from '@koa/router';
 import bodyParser from 'koa-bodyparser';
 import { fetchNovelChapters, fetchChapterContent } from './src/crawler';
 import { isValidUrl} from './src/utils';
+import LRUCache from './src/utils/LRUCache'
 
 const app = new Koa();
 const router = new Router();
@@ -12,7 +13,8 @@ app.use(bodyParser());
 app.use(serve('public'));
 
 // 在文件顶部引入Map以创建缓存
-const chaptersCache = new Map<string, any>();
+const chaptersCache = new LRUCache<string, any>(10);
+const contentCache = new LRUCache<string, any>(10);
 
 router.post('/novels/chapters', async (ctx) => {
   try {
@@ -27,7 +29,7 @@ router.post('/novels/chapters', async (ctx) => {
       // 如果缓存中没有，则调用API获取数据
       chapters = await fetchNovelChapters(novelUrl);
       // 并将数据存入缓存
-      chaptersCache.set(novelUrl, chapters);
+      chaptersCache.put(novelUrl, chapters);
     }
 
     ctx.body = chapters;
@@ -43,9 +45,12 @@ router.post('/chapter/content', async (ctx) => {
     const { chapterUrl } = ctx.request.body as { chapterUrl: string };
     
     isValidUrl(chapterUrl);
-
-    // 获取章节内容
-    const content = await fetchChapterContent(chapterUrl);
+    let content = contentCache.get(chapterUrl);
+    if (!content) {
+      console.log('从API获取数据');
+      content = await fetchChapterContent(chapterUrl);
+      contentCache.put(chapterUrl, content);
+    }
 
     ctx.body = { content };
   } catch (error) {
