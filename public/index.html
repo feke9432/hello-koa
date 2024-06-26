@@ -199,14 +199,14 @@
         }
 
         const handlePrevChapter = async () => {
-          if (pageIndex === 0) {
+          if (pageIndex.value === 0) {
             return; 
           }
           pageIndex.value--;
           loadDetail(tableData.value[pageIndex.value])
         }
         const handleNextChapter = async () => {
-          if (pageIndex === tableData.length - 1) {
+          if (pageIndex.value === tableData.value.length - 1) {
             return;
           }
           pageIndex.value++;
