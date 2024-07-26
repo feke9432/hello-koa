@@ -1,4 +1,4 @@
 node_modules
-data-filter/*.json
-data-filter/*.log
+data-filter/*/*/*.json
+data-filter/*/*/*.log
 static/*.txt

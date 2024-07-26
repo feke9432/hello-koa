@@ -68,8 +68,11 @@ const inOrOut = {
 }
 let allCount = 0;
 let outCount = 0;
+const fileName = 'sucai.52jianpan.com_url'
+const filterType = 1; // 1: filter by referer | 2: filter by domain
+
 const rl = readline.createInterface({
-  input: fs.createReadStream('./data-filter/url.log'),
+  input: fs.createReadStream('./in/' + fileName + '.log'),
   crlfDelay: Infinity
 });
 
@@ -110,12 +113,11 @@ rl.on('line', (line) => {
 rl.on('close', () => {
   console.log('Finished reading the file.');
   const referMap = new Map();
-  const type = 2; // 1: filter by referer | 2: filter by domain
 
   inOrOut.out.forEach(item => {
-    if (type === 1) {
+    if (filterType === 1) {
       referMap.set(item.referer, item);
-    } else if (type === 2) {
+    } else if (filterType === 2) {
       let curr = referMap.get(item.domain);
       if (curr) {
         curr.ccount = (curr.ccount|| curr.count || 0) + item.count
@@ -127,12 +129,12 @@ rl.on('close', () => {
   // 从 Map 中获取唯一的数据
   const uniqueData = Array.from(referMap.values());
   const jsonData = JSON.stringify(uniqueData, null, 2);
-  console.log(uniqueData.length)
-  const fileName = {
+
+  const fileNameMap = {
     1: 'referer',
     2: 'domain'
   }
-  fs.writeFile(`./data-filter/filter-by-${fileName[type]}.json`, jsonData, (err) => {
+  fs.writeFile(`./out/${fileName}__filter-by-${fileNameMap[filterType]}.json`, jsonData, (err) => {
     if (err) {
       console.error('Error writing to JSON file:', err);
       return;
