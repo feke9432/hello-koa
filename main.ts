@@ -36,6 +36,7 @@ router.post('/novels/chapters', async (ctx) => {
   } catch (error) {
     ctx.status = 400; // Bad Request
     ctx.body = { error: error }; // 只传递错误信息，避免泄露堆栈信息
+    console.log(error)
   }
 });
 
