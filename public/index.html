@@ -194,7 +194,11 @@
 
         const loadDetail = async (data) => {
           if (!data) return console.log('load deatil error: no data')
-          const res = await fetchChapterContent(baseURL + data.link);
+          let urls = data.link
+          if (data.link.includes('weilaitianwang')) {
+            urls = baseURL + data.link
+          }
+          const res = await fetchChapterContent(urls);
           
           message.value =  res.content;
           currTitle.value = data.title;

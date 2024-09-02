@@ -44,7 +44,7 @@ router.post('/novels/chapters', async (ctx) => {
 router.post('/chapter/content', async (ctx) => {
   try {
     const { chapterUrl } = ctx.request.body as { chapterUrl: string };
-    
+    console.log('chapterUrl', chapterUrl)
     isValidUrl(chapterUrl);
     let content = contentCache.get(chapterUrl);
     if (!content) {
@@ -56,7 +56,8 @@ router.post('/chapter/content', async (ctx) => {
     ctx.body = { content };
   } catch (error) {
     ctx.status = 400; // Bad Request
-    ctx.body = { error: error };
+    console.log(error)
+    ctx.body = error;
   }
 });
 

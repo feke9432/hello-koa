@@ -14,6 +14,7 @@ export async function filterFactory (url: string, type: 'chapters'| 'content') {
     }
   } else if (url.includes('69shuba')) {
     const filters = new Shuba69Filter();
+    console.log('type ', '69shuba', type);
     try {
       if (type === 'chapters') {
         return filters.chapters(url);

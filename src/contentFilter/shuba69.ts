@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 // 69shuba
 const menuEl = '#catalog';
 const menuItemEl = '#catalog ul a';
-const contentEl = '#txtnav';
+const contentEl = '.txtnav';
 const contentTitleEl = 'h1'
 
 export class Shuba69Filter {
@@ -29,6 +29,7 @@ export class Shuba69Filter {
       title: link.textContent,
       link: link.href
     })));
+    await browser.close();
     return chapters;
   }
 
@@ -49,6 +50,7 @@ export class Shuba69Filter {
     // 获取章节标题和内容
     const content = await page.$eval(contentEl, (el:any) => el.textContent);
     
+    await browser.close();
     // 获取处理后的HTML
     return content || '';
   }
