@@ -10,8 +10,7 @@ export class Shuba69Filter {
   async chapters (url: string) {
     let chapters: NovelChapter[] = [];
     const browser = await puppeteer.launch({
-      headless: false, // 设置为 false 开启实体浏览器
-      slowMo: 250, // 可选：增加延迟，便于观察操作过程
+      headless: false,
     });
     const page = await browser.newPage();
     console.log('Navigating to', url);
@@ -35,8 +34,7 @@ export class Shuba69Filter {
 
   async content(url: string){
     const browser = await puppeteer.launch({
-      headless: false, // 设置为 false 开启实体浏览器
-      slowMo: 250, // 可选：增加延迟，便于观察操作过程
+      headless: false,
     });
     const page = await browser.newPage();
 
@@ -48,7 +46,11 @@ export class Shuba69Filter {
 
 
     // 获取章节标题和内容
-    const content = await page.$eval(contentEl, (el:any) => el.textContent);
+    const content = await page.$eval(contentEl, (el:any) => {
+      el.querySelector('h1').remove()
+      el.querySelectorAll('div').forEach((div: Element) => div.remove());
+      return el.innerHTML;
+    });
     
     await browser.close();
     // 获取处理后的HTML
