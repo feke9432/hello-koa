@@ -3,3 +3,5 @@ data-filter/*/*/*.json
 data-filter/*/*/*.log
 static/*.txt
 novelScraper/*.txt
+*.mp3
+*.flac

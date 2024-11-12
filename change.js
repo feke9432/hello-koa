@@ -2,6 +2,7 @@
 
 // 导入所需模块
 const fs = require('fs');
+const path = require('path');
 const iconv = require('iconv-lite');
 const OpenCC = require('opencc-js');
 
@@ -17,7 +18,7 @@ function convertFile(inputPath, outputPath) {
       return;
     }
     
-    let traditionalText = iconv.decode(data, 'utf8'); // 假设繁体文件编码为Big5，根据实际情况调整
+    let traditionalText = iconv.decode(data, 'utf8'); // 假设繁体文件编码为UTF-8，根据实际情况调整
     
     // 使用OpenCC进行繁体到简体的转换
     let simplifiedText = converter(traditionalText);
@@ -33,5 +34,15 @@ function convertFile(inputPath, outputPath) {
   });
 }
 
-// 示例：转换'example_traditional.txt'为简体，并保存为'example_simplified.txt'
-convertFile('static/1.txt', 'static/2.txt');
+// 获取当前目录下所有 .txt 文件
+const directoryPath = 'static'; // 指定目录
+const files = fs.readdirSync(directoryPath).filter(file => file.endsWith('.txt'));
+
+// 遍历所有 .txt 文件并进行转换
+files.forEach(file => {
+  const inputPath = path.join(directoryPath, file);
+  const baseName = path.basename(file, '.txt');
+  const outputPath = path.join(directoryPath, `${baseName}_简.txt`);
+  
+  convertFile(inputPath, outputPath);
+});
