@@ -1,0 +1,440 @@
+[
+  {
+    "title": "01 - 可爱女人.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/01 - 可爱女人.mp3",
+    "fileUrl": "/static/1_jay/01_-_keainvren.mp3"
+  },
+  {
+    "title": "02 - 完美主义.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/02 - 完美主义.mp3",
+    "fileUrl": "/static/1_jay/02_-_wanmeizhuyi.mp3"
+  },
+  {
+    "title": "03 - 星晴.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/03 - 星晴.mp3",
+    "fileUrl": "/static/1_jay/03_-_xingqing.mp3"
+  },
+  {
+    "title": "04 - 娘子.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/04 - 娘子.mp3",
+    "fileUrl": "/static/1_jay/04_-_niangzi.mp3"
+  },
+  {
+    "title": "05 - 斗牛.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/05 - 斗牛.mp3",
+    "fileUrl": "/static/1_jay/05_-_douniu.mp3"
+  },
+  {
+    "title": "06 - 黑色幽默.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/06 - 黑色幽默.mp3",
+    "fileUrl": "/static/1_jay/06_-_heiseyoumo.mp3"
+  },
+  {
+    "title": "07 - 伊斯坦堡.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/07 - 伊斯坦堡.mp3",
+    "fileUrl": "/static/1_jay/07_-_yisitanbao.mp3"
+  },
+  {
+    "title": "08 - 印第安老斑鸠.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/08 - 印第安老斑鸠.mp3",
+    "fileUrl": "/static/1_jay/08_-_yindianlaobanjiu.mp3"
+  },
+  {
+    "title": "09 - 龙卷风.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/09 - 龙卷风.mp3",
+    "fileUrl": "/static/1_jay/09_-_longjuanfeng.mp3"
+  },
+  {
+    "title": "10 - 反方向的钟.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/1 jay/10 - 反方向的钟.mp3",
+    "fileUrl": "/static/1_jay/10_-_fanfangxiangdezhong.mp3"
+  },
+  {
+    "title": "01 - 爱在西元前.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/01 - 爱在西元前.mp3",
+    "fileUrl": "/static/2_fantexi/01_-_aizaixiyuanqian.mp3"
+  },
+  {
+    "title": "02 - 爸我回来了.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/02 - 爸我回来了.mp3",
+    "fileUrl": "/static/2_fantexi/02_-_bawohuilailiao.mp3"
+  },
+  {
+    "title": "03 - 简单爱.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/03 - 简单爱.mp3",
+    "fileUrl": "/static/2_fantexi/03_-_jiandanai.mp3"
+  },
+  {
+    "title": "04 - 忍者.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/04 - 忍者.mp3",
+    "fileUrl": "/static/2_fantexi/04_-_renzhe.mp3"
+  },
+  {
+    "title": "05 - 开不了口.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/05 - 开不了口.mp3",
+    "fileUrl": "/static/2_fantexi/05_-_kaibuliaokou.mp3"
+  },
+  {
+    "title": "06 - 上海一九四三.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/06 - 上海一九四三.mp3",
+    "fileUrl": "/static/2_fantexi/06_-_shanghaiyijiusisan.mp3"
+  },
+  {
+    "title": "07 - 对不起.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/07 - 对不起.mp3",
+    "fileUrl": "/static/2_fantexi/07_-_duibuqi.mp3"
+  },
+  {
+    "title": "08 - 威廉古堡.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/08 - 威廉古堡.mp3",
+    "fileUrl": "/static/2_fantexi/08_-_weiliangubao.mp3"
+  },
+  {
+    "title": "09 - 双截棍，微信公众号，凯子影视站.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/09 - 双截棍，微信公众号，凯子影视站.mp3",
+    "fileUrl": "/static/2_fantexi/09_-_shuangjiegun，weixingongzhonghao，kaiziyingshizhan.mp3"
+  },
+  {
+    "title": "10 - 安静.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/2 范特西/10 - 安静.mp3",
+    "fileUrl": "/static/2_fantexi/10_-_anjing.mp3"
+  },
+  {
+    "title": "01 - 半兽人.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/01 - 半兽人.mp3",
+    "fileUrl": "/static/3_badukongjian/01_-_banshouren.mp3"
+  },
+  {
+    "title": "02 - 半岛铁盒.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/02 - 半岛铁盒.mp3",
+    "fileUrl": "/static/3_badukongjian/02_-_bandaotiehe.mp3"
+  },
+  {
+    "title": "03 - 暗号.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/03 - 暗号.mp3",
+    "fileUrl": "/static/3_badukongjian/03_-_anhao.mp3"
+  },
+  {
+    "title": "04 - 龙拳.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/04 - 龙拳.mp3",
+    "fileUrl": "/static/3_badukongjian/04_-_longquan.mp3"
+  },
+  {
+    "title": "05 - 火车叨位去.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/05 - 火车叨位去.mp3",
+    "fileUrl": "/static/3_badukongjian/05_-_huochetaoweiqu.mp3"
+  },
+  {
+    "title": "06 - 分裂(离开).mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/06 - 分裂(离开).mp3",
+    "fileUrl": "/static/3_badukongjian/06_-_fenlie(likai).mp3"
+  },
+  {
+    "title": "07 - 爷爷泡的茶.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/07 - 爷爷泡的茶.mp3",
+    "fileUrl": "/static/3_badukongjian/07_-_yeyepaodecha.mp3"
+  },
+  {
+    "title": "08 - 回到过去.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/08 - 回到过去.mp3",
+    "fileUrl": "/static/3_badukongjian/08_-_huidaoguoqu.mp3"
+  },
+  {
+    "title": "09 - 米兰的小铁匠.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/09 - 米兰的小铁匠.mp3",
+    "fileUrl": "/static/3_badukongjian/09_-_milandexiaotiejiang.mp3"
+  },
+  {
+    "title": "10 - 最后的战役.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/3 八度空间/10 - 最后的战役.mp3",
+    "fileUrl": "/static/3_badukongjian/10_-_zuihoudezhanyi.mp3"
+  },
+  {
+    "title": "01 - 以父之名.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/01 - 以父之名.mp3",
+    "fileUrl": "/static/4_yehuimei/01_-_yifuzhiming.mp3"
+  },
+  {
+    "title": "02 - 懦夫.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/02 - 懦夫.mp3",
+    "fileUrl": "/static/4_yehuimei/02_-_nuofu.mp3"
+  },
+  {
+    "title": "03 - 晴天.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/03 - 晴天.mp3",
+    "fileUrl": "/static/4_yehuimei/03_-_qingtian.mp3"
+  },
+  {
+    "title": "04 - 三年二班.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/04 - 三年二班.mp3",
+    "fileUrl": "/static/4_yehuimei/04_-_sannianerban.mp3"
+  },
+  {
+    "title": "05 - 东风破.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/05 - 东风破.mp3",
+    "fileUrl": "/static/4_yehuimei/05_-_dongfengpo.mp3"
+  },
+  {
+    "title": "06 - 你听得到.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/06 - 你听得到.mp3",
+    "fileUrl": "/static/4_yehuimei/06_-_nitingdedao.mp3"
+  },
+  {
+    "title": "07 - 同一种调调.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/07 - 同一种调调.mp3",
+    "fileUrl": "/static/4_yehuimei/07_-_tongyizhongtiaotiao.mp3"
+  },
+  {
+    "title": "08 - 她的睫毛.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/08 - 她的睫毛.mp3",
+    "fileUrl": "/static/4_yehuimei/08_-_tadejiemao.mp3"
+  },
+  {
+    "title": "09 - 爱情悬崖.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/09 - 爱情悬崖.mp3",
+    "fileUrl": "/static/4_yehuimei/09_-_aiqingxuanya.mp3"
+  },
+  {
+    "title": "10 - 梯田.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/10 - 梯田.mp3",
+    "fileUrl": "/static/4_yehuimei/10_-_titian.mp3"
+  },
+  {
+    "title": "11 - 双刀.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/4 叶惠美/11 - 双刀.mp3",
+    "fileUrl": "/static/4_yehuimei/11_-_shuangdao.mp3"
+  },
+  {
+    "title": "01 - 我的地盘.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/01 - 我的地盘.mp3",
+    "fileUrl": "/static/5_qilixiang/01_-_wodedipan.mp3"
+  },
+  {
+    "title": "02 - 七里香.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/02 - 七里香.mp3",
+    "fileUrl": "/static/5_qilixiang/02_-_qilixiang.mp3"
+  },
+  {
+    "title": "03 - 借口.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/03 - 借口.mp3",
+    "fileUrl": "/static/5_qilixiang/03_-_jiekou.mp3"
+  },
+  {
+    "title": "04 - 外婆.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/04 - 外婆.mp3",
+    "fileUrl": "/static/5_qilixiang/04_-_waipo.mp3"
+  },
+  {
+    "title": "05 - 将军.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/05 - 将军.mp3",
+    "fileUrl": "/static/5_qilixiang/05_-_jiangjun.mp3"
+  },
+  {
+    "title": "06 - 搁浅.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/06 - 搁浅.mp3",
+    "fileUrl": "/static/5_qilixiang/06_-_geqian.mp3"
+  },
+  {
+    "title": "07 - 乱舞春秋.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/07 - 乱舞春秋.mp3",
+    "fileUrl": "/static/5_qilixiang/07_-_luanwuchunqiu.mp3"
+  },
+  {
+    "title": "08 - 困兽之斗.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/08 - 困兽之斗.mp3",
+    "fileUrl": "/static/5_qilixiang/08_-_kunshouzhidou.mp3"
+  },
+  {
+    "title": "09 - 园游会.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/09 - 园游会.mp3",
+    "fileUrl": "/static/5_qilixiang/09_-_yuanyouhui.mp3"
+  },
+  {
+    "title": "10 - 止战之殇.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/5 七里香/10 - 止战之殇.mp3",
+    "fileUrl": "/static/5_qilixiang/10_-_zhizhanzhishang.mp3"
+  },
+  {
+    "title": "01 - 夜曲.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/01 - 夜曲.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/01_-_yequ.mp3"
+  },
+  {
+    "title": "02 - 蓝色风暴.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/02 - 蓝色风暴.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/02_-_lansefengbao.mp3"
+  },
+  {
+    "title": "03 - 发如雪.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/03 - 发如雪.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/03_-_faruxue.mp3"
+  },
+  {
+    "title": "04 - 黑色毛衣.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/04 - 黑色毛衣.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/04_-_heisemaoyi.mp3"
+  },
+  {
+    "title": "05 - 四面楚歌.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/05 - 四面楚歌.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/05_-_simianchuge.mp3"
+  },
+  {
+    "title": "06 - 枫.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/06 - 枫.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/06_-_feng.mp3"
+  },
+  {
+    "title": "07 - 浪漫手机.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/07 - 浪漫手机.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/07_-_langmanshouji.mp3"
+  },
+  {
+    "title": "08 - 逆鳞.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/08 - 逆鳞.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/08_-_nilin.mp3"
+  },
+  {
+    "title": "09 - 麦芽糖.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/09 - 麦芽糖.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/09_-_maiyatang.mp3"
+  },
+  {
+    "title": "10 - 珊瑚海.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/10 - 珊瑚海.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/10_-_shanhuhai.mp3"
+  },
+  {
+    "title": "11 - 飘移.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/11 - 飘移.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/11_-_piaoyi.mp3"
+  },
+  {
+    "title": "12 - 一路向北.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/6 十一月的萧邦/12 - 一路向北.mp3",
+    "fileUrl": "/static/6_shiyiyuedexiaobang/12_-_yiluxiangbei.mp3"
+  },
+  {
+    "title": "01 - 夜的第七章.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/01 - 夜的第七章.mp3",
+    "fileUrl": "/static/7_yiranfantexi/01_-_yedediqizhang.mp3"
+  },
+  {
+    "title": "02 - 听妈妈的话.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/02 - 听妈妈的话.mp3",
+    "fileUrl": "/static/7_yiranfantexi/02_-_tingmamadehua.mp3"
+  },
+  {
+    "title": "03 - 千里之外.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/03 - 千里之外.mp3",
+    "fileUrl": "/static/7_yiranfantexi/03_-_qianlizhiwai.mp3"
+  },
+  {
+    "title": "04 - 本草纲目.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/04 - 本草纲目.mp3",
+    "fileUrl": "/static/7_yiranfantexi/04_-_bencaogangmu.mp3"
+  },
+  {
+    "title": "05 - 退后.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/05 - 退后.mp3",
+    "fileUrl": "/static/7_yiranfantexi/05_-_tuihou.mp3"
+  },
+  {
+    "title": "06 - 红模仿.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/06 - 红模仿.mp3",
+    "fileUrl": "/static/7_yiranfantexi/06_-_hongmofang.mp3"
+  },
+  {
+    "title": "07 - 心雨.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/07 - 心雨.mp3",
+    "fileUrl": "/static/7_yiranfantexi/07_-_xinyu.mp3"
+  },
+  {
+    "title": "08 - 白色风车.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/08 - 白色风车.mp3",
+    "fileUrl": "/static/7_yiranfantexi/08_-_baisefengche.mp3"
+  },
+  {
+    "title": "09 - 迷迭香.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/09 - 迷迭香.mp3",
+    "fileUrl": "/static/7_yiranfantexi/09_-_midiexiang.mp3"
+  },
+  {
+    "title": "10 - 菊花台.mp3",
+    "singer": "周杰伦",
+    "fileUrl_old": "/static/7 依然范特西/10 - 菊花台.mp3",
+    "fileUrl": "/static/7_yiranfantexi/10_-_juhuatai.mp3"
+  }
+]

@@ -3,21 +3,21 @@ const path = require('path');
 const pinyin = require('node-pinyin');
 
 // 指定静态文件夹路径和输出文件夹路径
+const staticFolder = 'static';
 const outputFolder = 'output';
 const jsonOutputFile = '1.json';
 
 // 定义自定义编码函数
 function customEncode(str) {
   // 将中文字符转换为拼音
-  const pinyinArray = pinyin(str, { style: pinyin.STYLE_NORMAL });
+  const pinyinArray = pinyin(str, { style: 'normal' });
   const pinyinStr = pinyinArray.flat().join('');
 
   // 替换特殊字符
   return pinyinStr.replace(/ /g, '_') // 将空格替换为下划线
-                  .replace(/[^a-zA-Z0-9_\-\.]/g, '') // 移除其他特殊字符
+                  // .replace(/[^a-zA-Z0-9_\-\.]/g, '') // 移除其他特殊字符
                   .toLowerCase(); // 转换为小写
 }
-
 // 递归获取所有 .mp3 文件及其路径
 function getMp3Files(dir) {
   const mp3Files = [];
@@ -40,7 +40,8 @@ function getMp3Files(dir) {
 // 生成 JSON 文件
 function generateJsonFile(mp3Files, outputFile) {
   const data = mp3Files.map(file => {
-    const relativePath = path.relative(outputFolder, file);
+    let relativePath = path.relative(outputFolder, file);
+    relativePath = relativePath.replace('\\', '/')
     const title = path.basename(file);
     const singer = '周杰伦'; // 这里可以根据实际需求动态获取歌手信息
     const fileUrl_old = `/static/${relativePath}`;
@@ -54,7 +55,6 @@ function generateJsonFile(mp3Files, outputFile) {
 
   fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
   console.log(`JSON 文件已生成: ${outputFile}`);
-  return data;
 }
 
 // 递归修改文件和文件夹名称
@@ -79,19 +79,22 @@ function renameFilesAndFolders(dir) {
     }
   });
 }
-
+let flag = true;
 // 更新 1.json 中的 fileUrl 字段
 function updateJsonFile(jsonFile, fileMap) {
   const data = JSON.parse(fs.readFileSync(jsonFile, 'utf-8'));
-
   data.forEach(item => {
-    const oldFileUrl = item.fileUrl_old;
+    const oldFileUrl = customEncode(item.fileUrl_old);
+    if (flag) {
+      console.log( fileMap, oldFileUrl)
+      flag = false;
+    }
     if (fileMap[oldFileUrl]) {
       item.fileUrl = fileMap[oldFileUrl];
     }
   });
 
-  fs.writeFileSync(jsonFile, JSON.stringify(data, null, 2));
+  fs.writeFileSync('2.json', JSON.stringify(data, null, 2));
   console.log(`JSON 文件已更新: ${jsonFile}`);
 }
 
@@ -109,7 +112,8 @@ function main() {
   const fileMap = {};
 
   allFiles.forEach(file => {
-    const oldRelativePath = path.relative(outputFolder, file);
+    let oldRelativePath = path.relative(outputFolder, file);
+    oldRelativePath = oldRelativePath.replace('\\', '/')
     const newRelativePath = path.dirname(oldRelativePath) + '/' + customEncode(path.basename(oldRelativePath));
     const oldFileUrl = `/static/${oldRelativePath}`;
     const newFileUrl = `/static/${newRelativePath}`;
