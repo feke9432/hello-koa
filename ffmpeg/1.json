@@ -1,367 +1,1422 @@
 [
   {
-    "title": "01 - 可爱女人.mp3",
+    "title": "可爱女人",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/01 - 可爱女人.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/01 - 可爱女人.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "02 - 完美主义.mp3",
+    "title": "完美主义",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/02 - 完美主义.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/02 - 完美主义.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "03 - 星晴.mp3",
+    "title": "星晴",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/03 - 星晴.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/03 - 星晴.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "04 - 娘子.mp3",
+    "title": "娘子",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/04 - 娘子.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/04 - 娘子.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "05 - 斗牛.mp3",
+    "title": "斗牛",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/05 - 斗牛.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/05 - 斗牛.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "06 - 黑色幽默.mp3",
+    "title": "黑色幽默",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/06 - 黑色幽默.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/06 - 黑色幽默.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "07 - 伊斯坦堡.mp3",
+    "title": "伊斯坦堡",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/07 - 伊斯坦堡.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/07 - 伊斯坦堡.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "08 - 印第安老斑鸠.mp3",
+    "title": "印第安老斑鸠",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/08 - 印第安老斑鸠.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/08 - 印第安老斑鸠.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "09 - 龙卷风.mp3",
+    "title": "龙卷风",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/09 - 龙卷风.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/09 - 龙卷风.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "10 - 反方向的钟.mp3",
+    "title": "反方向的钟",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/1 jay/10 - 反方向的钟.mp3"
+    "album": "Jay 同名专辑",
+    "fileUrl_old": "/static/1 jay/10 - 反方向的钟.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2000
   },
   {
-    "title": "01 - 爱在西元前.mp3",
+    "title": "跨时代",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/01 - 爱在西元前.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/01 - 跨时代.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "02 - 爸我回来了.mp3",
+    "title": "说了再见",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/02 - 爸我回来了.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/02 - 说了再见.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "03 - 简单爱.mp3",
+    "title": "烟花易冷",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/03 - 简单爱.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/03 - 烟花易冷.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "04 - 忍者.mp3",
+    "title": "免费教学录像带 - （内地版）",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/04 - 忍者.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/05 - 免费教学录像带 - （内地版）.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "05 - 开不了口.mp3",
+    "title": "好久不见",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/05 - 开不了口.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/06 - 好久不见.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "06 - 上海一九四三.mp3",
+    "title": "雨下一整晚",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/06 - 上海一九四三.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/07 - 雨下一整晚.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "07 - 对不起.mp3",
+    "title": "嘻哈空姐",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/07 - 对不起.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/08 - 嘻哈空姐.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "08 - 威廉古堡.mp3",
+    "title": "我落泪 情绪零碎",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/08 - 威廉古堡.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/09 - 我落泪 情绪零碎.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "09 - 双截棍，微信公众号，凯子影视站.mp3",
+    "title": "爱的飞行日记",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/09 - 双截棍，微信公众号，凯子影视站.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/10 - 爱的飞行日记.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "10 - 安静.mp3",
+    "title": "自导自演",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/2 范特西/10 - 安静.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/11 - 自导自演.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "01 - 半兽人.mp3",
+    "title": "超人不会飞 - (内地版)",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/01 - 半兽人.mp3"
+    "album": "跨时代",
+    "fileUrl_old": "/static/10 跨时代/13 - 超人不会飞 - (内地版).mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2010
   },
   {
-    "title": "02 - 半岛铁盒.mp3",
+    "title": "四季列车",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/02 - 半岛铁盒.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/01 - 四季列车.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "03 - 暗号.mp3",
+    "title": "手语",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/03 - 暗号.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/02 - 手语.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "04 - 龙拳.mp3",
+    "title": "公公偏头痛",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/04 - 龙拳.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/03 - 公公偏头痛.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "05 - 火车叨位去.mp3",
+    "title": "明明就",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/05 - 火车叨位去.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/04 - 明明就.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "06 - 分裂(离开).mp3",
+    "title": "傻笑",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/06 - 分裂(离开).mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/05 - 傻笑.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "07 - 爷爷泡的茶.mp3",
+    "title": "比较大的大提琴",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/07 - 爷爷泡的茶.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/06 - 比较大的大提琴.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "08 - 回到过去.mp3",
+    "title": "爱你没差",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/08 - 回到过去.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/07 - 爱你没差.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "09 - 米兰的小铁匠.mp3",
+    "title": "红尘客栈",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/09 - 米兰的小铁匠.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/08 - 红尘客栈.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "10 - 最后的战役.mp3",
+    "title": "梦想启动",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/3 八度空间/10 - 最后的战役.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/09 - 梦想启动.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "01 - 以父之名.mp3",
+    "title": "大笨钟",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/01 - 以父之名.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/10 - 大笨钟.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "02 - 懦夫.mp3",
+    "title": "哪里都是你",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/02 - 懦夫.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/11 - 哪里都是你.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "03 - 晴天.mp3",
+    "title": "乌克丽丽",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/03 - 晴天.mp3"
+    "album": "十二新作",
+    "fileUrl_old": "/static/12 十二新作/12 - 乌克丽丽.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2012
   },
   {
-    "title": "04 - 三年二班.mp3",
+    "title": "阳明山",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/04 - 三年二班.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/01 - 阳明山.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "05 - 东风破.mp3",
+    "title": "窃爱",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/05 - 东风破.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/02 - 窃爱.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "06 - 你听得到.mp3",
+    "title": "算什么男人",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/06 - 你听得到.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/03 - 算什么男人.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "07 - 同一种调调.mp3",
+    "title": "天涯过客",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/07 - 同一种调调.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/04 - 天涯过客.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "08 - 她的睫毛.mp3",
+    "title": "怎么了",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/08 - 她的睫毛.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/05 - 怎么了.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "09 - 爱情悬崖.mp3",
+    "title": "一口气全念对",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/09 - 爱情悬崖.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/06 - 一口气全念对.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "10 - 梯田.mp3",
+    "title": "我要夏天",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/10 - 梯田.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/07 - 我要夏天.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "11 - 双刀.mp3",
+    "title": "手写的从前",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/4 叶惠美/11 - 双刀.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/08 - 手写的从前.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "01 - 我的地盘.mp3",
+    "title": "鞋子特大号",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/01 - 我的地盘.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/09 - 鞋子特大号.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "02 - 七里香.mp3",
+    "title": "听爸爸的话",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/02 - 七里香.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/10 - 听爸爸的话.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "03 - 借口.mp3",
+    "title": "美人鱼",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/03 - 借口.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/11 - 美人鱼.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "04 - 外婆.mp3",
+    "title": "听见下雨的声音",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/04 - 外婆.mp3"
+    "album": "哎呦，不错哦",
+    "fileUrl_old": "/static/13 哎呦，不错哦/12 - 听见下雨的声音.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2014
   },
   {
-    "title": "05 - 将军.mp3",
+    "title": "Now You See Me",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/05 - 将军.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-Now You See Me(《惊天魔盗团2》电影全球主题曲).mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "06 - 搁浅.mp3",
+    "title": "一点点",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/06 - 搁浅.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-一点点.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "07 - 乱舞春秋.mp3",
+    "title": "不该(with aMEI)",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/07 - 乱舞春秋.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-不该.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "08 - 困兽之斗.mp3",
+    "title": "前世情人",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/08 - 困兽之斗.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-前世情人.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "09 - 园游会.mp3",
+    "title": "告白气球",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/09 - 园游会.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-告白气球.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "10 - 止战之殇.mp3",
+    "title": "土耳其冰淇淋",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/5 七里香/10 - 止战之殇.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-土耳其冰淇淋.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "01 - 夜曲.mp3",
+    "title": "床边故事",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/01 - 夜曲.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-床边故事.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "02 - 蓝色风暴.mp3",
+    "title": "爱情废柴",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/02 - 蓝色风暴.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-爱情废柴.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "03 - 发如雪.mp3",
+    "title": "英雄",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/03 - 发如雪.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-英雄(《英雄联盟》中国品牌主题曲).mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "04 - 黑色毛衣.mp3",
+    "title": "说走就走",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/04 - 黑色毛衣.mp3"
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/周杰伦-说走就走.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2016
   },
   {
-    "title": "05 - 四面楚歌.mp3",
+    "title": "Intro",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/05 - 四面楚歌.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - Intro.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "06 - 枫.mp3",
+    "title": "Mojito",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/06 - 枫.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - Mojito.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "07 - 浪漫手机.mp3",
+    "title": "不爱我就拉倒",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/07 - 浪漫手机.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 不爱我就拉倒.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "08 - 逆鳞.mp3",
+    "title": "倒影",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/08 - 逆鳞.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 倒影.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "09 - 麦芽糖.mp3",
+    "title": "我是如此相信",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/09 - 麦芽糖.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 我是如此相信.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "10 - 珊瑚海.mp3",
+    "title": "最伟大的作品",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/10 - 珊瑚海.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 最伟大的作品.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "11 - 飘移.mp3",
+    "title": "等你下课 (with 杨瑞代)",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/11 - 飘移.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 等你下课 (with 杨瑞代).mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "12 - 一路向北.mp3",
+    "title": "粉色海洋",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/6 十一月的萧邦/12 - 一路向北.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 粉色海洋.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "01 - 夜的第七章.mp3",
+    "title": "红颜如霜",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/01 - 夜的第七章.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 红颜如霜.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "02 - 听妈妈的话.mp3",
+    "title": "说好不哭 (with 五月天阿信)",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/02 - 听妈妈的话.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 说好不哭 (with 五月天阿信).mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "03 - 千里之外.mp3",
+    "title": "还在流浪",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/03 - 千里之外.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 还在流浪.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "04 - 本草纲目.mp3",
+    "title": "错过的烟火",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/04 - 本草纲目.mp3"
+    "album": "最伟大的作品",
+    "fileUrl_old": "/static/15 最伟大的作品/周杰伦 - 错过的烟火.mp3",
+    "isPicture": true,
+    "year": ""
   },
   {
-    "title": "05 - 退后.mp3",
+    "title": "爱在西元前",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/05 - 退后.mp3"
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/01 - 爱在西元前.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
   },
   {
-    "title": "06 - 红模仿.mp3",
+    "title": "爸我回来了",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/06 - 红模仿.mp3"
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/02 - 爸我回来了.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
   },
   {
-    "title": "07 - 心雨.mp3",
+    "title": "简单爱",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/07 - 心雨.mp3"
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/03 - 简单爱.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
   },
   {
-    "title": "08 - 白色风车.mp3",
+    "title": "忍者",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/08 - 白色风车.mp3"
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/04 - 忍者.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
   },
   {
-    "title": "09 - 迷迭香.mp3",
+    "title": "开不了口",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/09 - 迷迭香.mp3"
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/05 - 开不了口.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
   },
   {
-    "title": "10 - 菊花台.mp3",
+    "title": "上海一九四三",
     "singer": "周杰伦",
-    "fileUrl_old": "/static/7 依然范特西/10 - 菊花台.mp3"
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/06 - 上海一九四三.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
+  },
+  {
+    "title": "对不起",
+    "singer": "周杰伦",
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/07 - 对不起.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
+  },
+  {
+    "title": "威廉古堡",
+    "singer": "周杰伦",
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/08 - 威廉古堡.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
+  },
+  {
+    "title": "双截棍",
+    "singer": "周杰伦",
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/09 - 双截棍，微信公众号，凯子影视站.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
+  },
+  {
+    "title": "安静",
+    "singer": "周杰伦",
+    "album": "范特西",
+    "fileUrl_old": "/static/2 范特西/10 - 安静.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
+  },
+  {
+    "title": "半兽人",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/01 - 半兽人.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "半岛铁盒",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/02 - 半岛铁盒.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "暗号",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/03 - 暗号.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "龙拳",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/04 - 龙拳.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "火车叨位去",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/05 - 火车叨位去.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "分裂(离开)",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/06 - 分裂(离开).mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "爷爷泡的茶",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/07 - 爷爷泡的茶.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "回到过去",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/08 - 回到过去.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "米兰的小铁匠",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/09 - 米兰的小铁匠.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "最后的战役",
+    "singer": "周杰伦",
+    "album": "八度空间",
+    "fileUrl_old": "/static/3 八度空间/10 - 最后的战役.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2002
+  },
+  {
+    "title": "以父之名",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/01 - 以父之名.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "懦夫",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/02 - 懦夫.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "晴天",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/03 - 晴天.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "三年二班",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/04 - 三年二班.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "东风破",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/05 - 东风破.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "你听得到",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/06 - 你听得到.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "同一种调调",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/07 - 同一种调调.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "她的睫毛",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/08 - 她的睫毛.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "爱情悬崖",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/09 - 爱情悬崖.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "梯田",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/10 - 梯田.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "双刀",
+    "singer": "周杰伦",
+    "album": "叶惠美",
+    "fileUrl_old": "/static/4 叶惠美/11 - 双刀.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "我的地盘",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/01 - 我的地盘.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "七里香",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/02 - 七里香.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "借口",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/03 - 借口.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "外婆",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/04 - 外婆.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "将军",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/05 - 将军.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "搁浅",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/06 - 搁浅.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "乱舞春秋",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/07 - 乱舞春秋.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "困兽之斗",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/08 - 困兽之斗.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "园游会",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/09 - 园游会.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "止战之殇",
+    "singer": "周杰伦",
+    "album": "七里香",
+    "fileUrl_old": "/static/5 七里香/10 - 止战之殇.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2004
+  },
+  {
+    "title": "夜曲",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/01 - 夜曲.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "蓝色风暴",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/02 - 蓝色风暴.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "发如雪",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/03 - 发如雪.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "黑色毛衣",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/04 - 黑色毛衣.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "四面楚歌",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/05 - 四面楚歌.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "枫",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/06 - 枫.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "浪漫手机",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/07 - 浪漫手机.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "逆鳞",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/08 - 逆鳞.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "麦芽糖",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/09 - 麦芽糖.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "珊瑚海",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/10 - 珊瑚海.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "飘移",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/11 - 飘移.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "一路向北",
+    "singer": "周杰伦",
+    "album": "十一月的萧邦",
+    "fileUrl_old": "/static/6 十一月的萧邦/12 - 一路向北.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2005
+  },
+  {
+    "title": "夜的第七章",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/01 - 夜的第七章.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "听妈妈的话",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/02 - 听妈妈的话.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "千里之外",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/03 - 千里之外.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "本草纲目",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/04 - 本草纲目.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "退后",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/05 - 退后.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "红模仿",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/06 - 红模仿.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "心雨",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/07 - 心雨.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "白色风车",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/08 - 白色风车.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "迷迭香",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/09 - 迷迭香.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "菊花台",
+    "singer": "周杰伦",
+    "album": "依然范特西",
+    "fileUrl_old": "/static/7 依然范特西/10 - 菊花台.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2006
+  },
+  {
+    "title": "牛仔很忙",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/01 - 牛仔很忙.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "彩虹",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/02 - 彩虹.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "青花瓷",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/03 - 青花瓷.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "阳光宅男",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/04 - 阳光宅男.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "蒲公英的约定",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/05 - 蒲公英的约定.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "无双",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/06 - 无双.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "扯",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/08 - 扯.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "甜甜的",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/09 - 甜甜的.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "最长的电影",
+    "singer": "周杰伦",
+    "album": "我很忙",
+    "fileUrl_old": "/static/8 我很忙/10 - 最长的电影.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2007
+  },
+  {
+    "title": "龙战骑士",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/01 - 龙战骑士.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "给我一首歌的时间",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/02 - 给我一首歌的时间.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "蛇舞",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/03 - 蛇舞.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "花海",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/04 - 花海.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "魔术先生",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/05 - 魔术先生.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "说好的幸福呢",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/06 - 说好的幸福呢.mp3",
+    "isPicture": true,
+    "year": ""
+  },
+  {
+    "title": "兰亭序",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/07 - 兰亭序.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "流浪诗人",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/08 - 流浪诗人.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "时光机",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/09 - 时光机.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "乔克叔叔",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/10 - 乔克叔叔.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "稻香",
+    "singer": "周杰伦",
+    "album": "魔杰座",
+    "fileUrl_old": "/static/9 魔杰座/11 - 稻香.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2008
+  },
+  {
+    "title": "Try - 派伟俊,周杰伦.mp3",
+    "singer": "",
+    "album": "",
+    "fileUrl_old": "/static/其他/Try - 派伟俊,周杰伦.mp3",
+    "year": ""
+  },
+  {
+    "title": "²»ÄÜËµµÄÃØÃÜ",
+    "singer": "ÖÜ½ÜÂ×",
+    "album": "不能说的秘密 电影原声带",
+    "fileUrl_old": "/static/其他/不能说的秘密.mp3",
+    "year": ""
+  },
+  {
+    "title": "世界末日",
+    "singer": "周杰伦",
+    "album": "Fantasy Plus",
+    "fileUrl_old": "/static/其他/世界末日.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
+  },
+  {
+    "title": "你比从前快乐",
+    "singer": "周杰伦",
+    "album": "Fantasy Plus",
+    "fileUrl_old": "/static/其他/你比从前快乐.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
+  },
+  {
+    "title": "track",
+    "singer": "周杰伦",
+    "album": "album",
+    "fileUrl_old": "/static/其他/周杰伦 - 圣诞星 (feat. 杨瑞代).mp3",
+    "isPicture": true,
+    "year": ""
+  },
+  {
+    "title": "断了的弦",
+    "singer": "周杰伦",
+    "album": "寻找周杰伦",
+    "fileUrl_old": "/static/其他/断了的弦.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "蜗牛",
+    "singer": "周杰伦",
+    "album": "Fantasy Plus",
+    "fileUrl_old": "/static/其他/蜗牛.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2001
+  },
+  {
+    "title": "轨迹",
+    "singer": "周杰伦",
+    "album": "寻找周杰伦",
+    "fileUrl_old": "/static/其他/轨迹.mp3",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2003
+  },
+  {
+    "title": "霍元甲",
+    "singer": "周杰伦",
+    "album": "霍元甲",
+    "fileUrl_old": "/static/其他/霍元甲.mp3",
+    "isPicture": true,
+    "year": 2006
+  },
+  {
+    "title": "黄金甲",
+    "singer": "周杰伦",
+    "album": "黄金甲",
+    "fileUrl_old": "/static/其他/黄金甲 - 周杰伦.mp3",
+    "isPicture": true,
+    "year": ""
   }
 ]

@@ -27,17 +27,21 @@ function readFilesRecursively(dir) {
 }
 
 async function processMp3Files(files) {
+  const lyricsDataArray = [];
+
   for (const file of files) {
     try {
       const audioStream = createReadStream(file);
       const metadata = await parseStream(audioStream, { mimeType: 'audio/mpeg' });
-
+      console.log(metadata.common.lyrics)
+      return;
       // 处理歌词
       if (metadata.common.lyrics) {
-        const lrcContent = metadata.common.lyrics[0].text;
-        const lrcFilePath = file.replace(/\.mp3$/, '.lrc');
-        fs.writeFileSync(lrcFilePath, lrcContent);
-        console.log(`生成 LRC 文件: ${lrcFilePath}`);
+        const lyricsData = {
+          music: path.basename(file),
+          lyrText: metadata.common.lyrics[0].text
+        };
+        lyricsDataArray.push(lyricsData);
       } else {
         console.log(`未找到歌词: ${file}`);
       }
@@ -57,16 +61,21 @@ async function processMp3Files(files) {
       console.error(`处理文件时出错: ${file}`, error.message);
     }
   }
+
+  // 写入集中歌词数据的 JSON 文件
+  const jsonFilePath = path.join(path.dirname(files[0]), 'lyrics_data.json');
+  fs.writeFileSync(jsonFilePath, JSON.stringify(lyricsDataArray, null, 2));
+  console.log(`生成集中歌词数据的 JSON 文件: ${jsonFilePath}`);
 }
 
 (async () => {
   try {
     // 获取当前模块的文件路径
-    const __filename = fileURLToPath(import.meta.url);
-    const outputDir = path.join(path.dirname(__filename), 'output');
-    const mp3Files = readFilesRecursively(outputDir);
-    await processMp3Files(mp3Files);
-    // await processMp3Files(['C:\\Users\\Administrator\\Desktop\\test_files\\hello-koa\\ffmpeg\\output\\1%20jay\\01%20-%20%E5%8F%AF%E7%88%B1%E5%A5%B3%E4%BA%BA.mp3']);
+    // const __filename = fileURLToPath(import.meta.url);
+    // const outputDir = path.join(path.dirname(__filename), 'output');
+    // const mp3Files = readFilesRecursively(outputDir);
+    // await processMp3Files(mp3Files);
+    await processMp3Files(['C:\\Users\\Administrator\\Desktop\\test_files\\hello-koa\\ffmpeg\\output\\1_jay\\02_-_wanmeizhuyi.mp3']);
   } catch (error) {
     console.error('主程序出错:', error.message);
   }

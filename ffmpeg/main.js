@@ -1,11 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 const pinyin = require('node-pinyin');
+const { loadMusicMetadata } = require('music-metadata');
 
 // 指定静态文件夹路径和输出文件夹路径
 const staticFolder = 'static';
 const outputFolder = 'output';
-const jsonOutputFile = '1.json';
+const jsonOutputFile = 'musicList.json';
+const lyrOutFile = 'lyrics_data.json';
 
 // 定义自定义编码函数
 function customEncode(str) {
@@ -29,7 +31,7 @@ function getMp3Files(dir) {
 
     if (stat.isDirectory()) {
       mp3Files.push(...getMp3Files(filePath));
-    } else if (path.extname(file).toLowerCase() === '.mp3') {
+    } else if (path.extname(file).toLowerCase() === '.mp3' || path.extname(file).toLowerCase() === '.flac') {
       mp3Files.push(filePath);
     }
   });
@@ -37,25 +39,67 @@ function getMp3Files(dir) {
   return mp3Files;
 }
 
-// 生成 JSON 文件
-function generateJsonFile(mp3Files, outputFile) {
-  const data = mp3Files.map(file => {
-    let relativePath = path.relative(outputFolder, file);
-    relativePath = relativePath.replace('\\', '/')
-    const title = path.basename(file);
-    const singer = '周杰伦'; // 这里可以根据实际需求动态获取歌手信息
-    const fileUrl_old = `/static/${relativePath}`;
+// 生成 JSON 文件: 1. 歌曲名 | 2. 作者 | 3. 专辑名 | 4. 专辑图片 | 5. 专辑发行时间
+async function generateJsonFile_more(mp3Files, outputFile) {
 
-    return {
-      title,
-      singer,
-      fileUrl_old
-    };
-  });
+  const lyricsDataArray = [];
+  const data = []
+  for (const file of mp3Files) {
+    try {
+      // const audioStream = fs.createReadStream(file);
+      const mm = await loadMusicMetadata();
+      const metadata = await mm.parseFile(file);
+      // const metadata = await loadMusicMetadata(audioStream, { mimeType: 'audio/mpeg' });
+      // 处理歌词
+      if (metadata.common.lyrics) {
+        const lyricsData = {
+          title: metadata.common.title,
+          lyrText: metadata.common.lyrics[0].text
+        };
+        lyricsDataArray.push(lyricsData);
+      } else {
+        console.log(`未找到歌词: ${file}`);
+      }
 
+      // 处理图片
+      if (metadata.common.picture && metadata.common.picture.length > 0) {
+        const picture = metadata.common.picture[0];
+        const imageBuffer = picture.data;
+        const imageFilePath = file.replace(/(\.mp3|\.flac)$/, '.jpg');
+        fs.writeFileSync(imageFilePath, imageBuffer);
+        // console.log(`生成图片文件: ${imageFilePath}`);
+      } else {
+        console.log(`未找到图片: ${file}`);
+      }
+
+      let relativePath = path.relative(outputFolder, file);
+      relativePath = relativePath.replace('\\', '/')
+      const title = path.basename(file);
+      const fileUrl_old = `/static/${relativePath}`;
+
+      data.push({
+        title: metadata.common.title || title,
+        singer: metadata.common.artist || '',
+        album: metadata.common.album || '',
+        fileUrl_old,
+        isPicture: metadata.common.picture && metadata.common.picture.length > 0,
+        isLyrics: metadata.common.lyrics && metadata.common.lyrics.length > 0,
+        year: metadata.common.year || '',
+      });
+
+    } catch (error) {
+      console.error(`处理文件时出错: ${file}`, error.message);
+    }
+  }
+
+  // 写入集中歌词数据的 JSON 文件
+  fs.writeFileSync(lyrOutFile, JSON.stringify(lyricsDataArray, null, 2));
+  console.log(`歌词数据 JSON 文件已生成: ${lyrOutFile}`);
   fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
-  console.log(`JSON 文件已生成: ${outputFile}`);
+  console.log(`歌曲数据 JSON 文件已生成: ${outputFile}`);
+  console.log(`歌曲图片已生成`);
 }
+
 
 // 递归修改文件和文件夹名称
 function renameFilesAndFolders(dir) {
@@ -86,7 +130,6 @@ function updateJsonFile(jsonFile, fileMap) {
   data.forEach(item => {
     const oldFileUrl = customEncode(item.fileUrl_old);
     if (flag) {
-      console.log( fileMap, oldFileUrl)
       flag = false;
     }
     if (fileMap[oldFileUrl]) {
@@ -94,15 +137,15 @@ function updateJsonFile(jsonFile, fileMap) {
     }
   });
 
-  fs.writeFileSync('2.json', JSON.stringify(data, null, 2));
-  console.log(`JSON 文件已更新: ${jsonFile}`);
+  fs.writeFileSync(jsonOutputFile, JSON.stringify(data, null, 2));
+  console.log(`歌曲数据 JSON 文件已更新: ${jsonFile}`);
 }
 
 // 主函数
-function main() {
+async function main() {
   // 读取 output 目录中的所有 .mp3 文件并生成 JSON 文件
   const mp3Files = getMp3Files(outputFolder);
-  generateJsonFile(mp3Files, jsonOutputFile);
+  await generateJsonFile_more(mp3Files, jsonOutputFile);
 
   // 递归修改文件和文件夹名称
   renameFilesAndFolders(outputFolder);

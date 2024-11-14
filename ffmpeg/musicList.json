@@ -210,6 +210,116 @@
     "fileUrl": "/static/10_kuashidai/13_-_chaorenbuhuifei_-_(neidiban).mp3"
   },
   {
+    "title": "Mine Mine",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - Mine Mine.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_mine_mine.flac"
+  },
+  {
+    "title": "世界未末日",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 世界未末日.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_shijieweimori.flac"
+  },
+  {
+    "title": "你好吗",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 你好吗.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_nihaoma.flac"
+  },
+  {
+    "title": "公主病",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 公主病.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_gongzhubing.flac"
+  },
+  {
+    "title": "惊叹号",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 惊叹号.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_jingtanhao.flac"
+  },
+  {
+    "title": "水手怕水",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 水手怕水.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_shuishoupashui.flac"
+  },
+  {
+    "title": "琴伤",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 琴伤.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_qinshang.flac"
+  },
+  {
+    "title": "疗伤烧肉粽",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 疗伤烧肉粽.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_liaoshangshaorouzong.flac"
+  },
+  {
+    "title": "皮影戏",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 皮影戏.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_piyingxi.flac"
+  },
+  {
+    "title": "超跑女神",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 超跑女神.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_chaopaonvshen.flac"
+  },
+  {
+    "title": "迷魂曲",
+    "singer": "周杰伦",
+    "album": "惊叹号",
+    "fileUrl_old": "/static/11 惊叹号!/周杰伦 - 迷魂曲.flac",
+    "isPicture": true,
+    "isLyrics": true,
+    "year": 2011,
+    "fileUrl": "/static/11_jingtanhao!/zhoujielun_-_mihunqu.flac"
+  },
+  {
     "title": "四季列车",
     "singer": "周杰伦",
     "album": "十二新作",
@@ -548,6 +658,14 @@
     "isLyrics": true,
     "year": 2016,
     "fileUrl": "/static/14_chuangbiangushi/zhoujielun-shuozoujiuzou.mp3"
+  },
+  {
+    "title": "床边故事",
+    "singer": "周杰伦",
+    "album": "周杰伦的床边故事",
+    "fileUrl_old": "/static/14 床边故事/床边故事-周杰伦.flac",
+    "year": "",
+    "fileUrl": "/static/14_chuangbiangushi/chuangbiangushi-zhoujielun.flac"
   },
   {
     "title": "Intro",

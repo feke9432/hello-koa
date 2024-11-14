@@ -3,5 +3,6 @@ data-filter/*/*/*.json
 data-filter/*/*/*.log
 static/*.txt
 novelScraper/*.txt
-*.mp3
-*.flac
+ffmpeg/*/*/*.mp3
+ffmpeg/*/*/*.jpg
+ffmpeg/*/*/*.flac
