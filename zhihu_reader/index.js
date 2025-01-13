@@ -37,6 +37,10 @@ const urlMaps = {
     menuItemEl: '#catalog ul a',
     contentEl: '#txtnav',
     contentTitleEl: 'h1'
+  },
+  'www.zhihu.com': {
+    menuEl: ".css-1fsnuue",
+    
   }
 }
 
@@ -114,10 +118,8 @@ async function scrapeNover_bypage(url) {
 
 try {
   // 小说主页URL
-  const novelUrl = 'https://www.piaotia.com/html/15/15679/index.html';
-  // const novelUrl = 'https://69shuba.cx/book/76892/';
-  // const novelUrl = 'https://www.seebook.net/96_96999/';
-  let elItem = urlMaps['www.piaotia.com'];
+  const novelUrl = 'https://www.zhihu.com/';
+  let elItem = urlMaps['www.zhihu.com'];
   scrapeNovel(novelUrl, elItem);
 } catch (error) {
   console.error(error)

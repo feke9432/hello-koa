@@ -33,8 +33,6 @@ async function processMp3Files(files) {
     try {
       const audioStream = createReadStream(file);
       const metadata = await parseStream(audioStream, { mimeType: 'audio/mpeg' });
-      console.log(metadata.common.lyrics)
-      return;
       // 处理歌词
       if (metadata.common.lyrics) {
         const lyricsData = {
@@ -71,11 +69,11 @@ async function processMp3Files(files) {
 (async () => {
   try {
     // 获取当前模块的文件路径
-    // const __filename = fileURLToPath(import.meta.url);
-    // const outputDir = path.join(path.dirname(__filename), 'output');
-    // const mp3Files = readFilesRecursively(outputDir);
-    // await processMp3Files(mp3Files);
-    await processMp3Files(['C:\\Users\\Administrator\\Desktop\\test_files\\hello-koa\\ffmpeg\\output\\1_jay\\02_-_wanmeizhuyi.mp3']);
+    const __filename = fileURLToPath(import.meta.url);
+    const outputDir = path.join(path.dirname(__filename), 'output');
+    const mp3Files = readFilesRecursively(outputDir);
+    await processMp3Files(mp3Files);
+    // await processMp3Files(['C:\\Users\\Administrator\\Desktop\\test_files\\hello-koa\\ffmpeg\\output\\1_jay\\02_-_wanmeizhuyi.mp3']);
   } catch (error) {
     console.error('主程序出错:', error.message);
   }
