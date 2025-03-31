@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const ProgressBar = require('progress');
 
 // seebook
 // const menuEl = '#zhangjie';
@@ -45,10 +46,13 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function scrapeNovel(url, elItem) {
+async function scrapeNovel(url, elItem, filterUrl) {
   console.log('开始抓取小说...', url)
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
+  // 添加时间统计
+  let startTime = Date.now();
+  let completed = 0;
   console.log('开启浏览器成功')
 
   // 导航到小说页面
@@ -60,41 +64,71 @@ async function scrapeNovel(url, elItem) {
   console.log('页面加载完成')
 
   // 获取所有章节链接
-  const chapterLinks = await page.$$eval(elItem.menuItemEl, links => links.map(link => link.href));
+  let chapterLinks = await page.$$eval(elItem.menuItemEl, links => links.map(link => link.href));
 
-  // 反转数组，使链接按倒序排列
-  // chapterLinks.reverse();
-  console.log('获取所有章节链接', chapterLinks)
+  chapterLinks = chapterLinks.filter(item => {
+    return item.includes(filterUrl)
+  })
+  const bar = new ProgressBar('[:bar] :percent 剩余:etas 总预计: :times :total章节', {
+    complete: '=',
+    incomplete: ' ',
+    width: 40,
+    total: chapterLinks.length,
+    times: '00:00'
+  });
 
   // 创建一个文件写入流
   const fileStream = fs.createWriteStream('output.txt', { encoding: 'utf8' });
 
   for (const link of chapterLinks) {
-    // 添加随机延迟，例如在1000ms到3000ms之间
+    // 添加随机延迟，例如在1000ms到5000ms之间
     const randomDelay = Math.floor(Math.random() * 5000) + 1000;
     await delay(randomDelay);
-    console.log('开始抓取章节链接', link)
+    // console.log('开始抓取章节链接', link)
     // 对每个章节进行爬取
     await page.goto(link);
 
-    console.log('导航到章节链接')
+    // console.log('导航到章节链接')
 
     // 等待章节内容加载完成
     await page.waitForSelector(elItem.contentEl, { timeout: 0 });
 
-    console.log('章节内容加载完成')
+    // console.log('章节内容加载完成')
 
     // 获取章节标题和内容
     const title = await page.$eval(elItem.contentTitleEl, el => el.textContent);
-    const content = await page.$eval(elItem.contentEl, el => el.textContent);
+    const content = await page.$eval(elItem.contentEl, el => {
+      // 克隆元素避免修改原始 DOM
+      const clone = el.cloneNode(true); 
+      
+      // 删除所有 table 元素
+      clone.querySelectorAll('table').forEach(table => table.remove());
+      clone.querySelectorAll('h1').forEach(table => table.remove());
+      clone.querySelectorAll('div').forEach(table => table.remove());
+      
+      // 返回处理后的纯文本
+      return clone.textContent;
+    });
 
-    console.log('章节爬取完成',`Title: ${title}`);
+    // console.log('章节爬取完成',`Title: ${title}`);
     // console.log(`Content: ${content}`);
 
     // 写入文件
     fileStream.write(title + '\n' +content + '\n');
 
-    
+    completed++;
+    const elapsed = (Date.now() - startTime) / 1000;
+    const estimatedTotal = (elapsed / completed) * chapterLinks.length;
+
+    // 修改tick参数
+    bar.tick({
+      times: `${Math.floor(estimatedTotal/60)}分${Math.round(estimatedTotal%60)}秒`
+    });
+
+    // 添加异常处理防止进度条溢出
+    if (completed >= chapterLinks.length) {
+      bar.terminate();
+    }
   }
 
   // 关闭文件流
@@ -114,11 +148,11 @@ async function scrapeNover_bypage(url) {
 
 try {
   // 小说主页URL
-  const novelUrl = 'https://www.piaotia.com/html/15/15679/index.html';
+  const novelUrl = 'https://www.piaotia.com/html/5/5150/index.html';
   // const novelUrl = 'https://69shuba.cx/book/76892/';
   // const novelUrl = 'https://www.seebook.net/96_96999/';
   let elItem = urlMaps['www.piaotia.com'];
-  scrapeNovel(novelUrl, elItem);
+  scrapeNovel(novelUrl, elItem, 'www.piaotia.com');
 } catch (error) {
   console.error(error)
 }

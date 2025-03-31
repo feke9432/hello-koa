@@ -25,6 +25,7 @@
     "music-metadata": "^10.5.1",
     "node-pinyin": "^0.2.3",
     "opencc-js": "^1.0.5",
+    "progress": "^2.0.3",
     "puppeteer": "^22.14.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
