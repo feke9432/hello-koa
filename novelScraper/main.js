@@ -1,105 +1,11 @@
 const fs = require('fs');
 const ProgressBar = require('progress');
-const url = require('url');
 
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const { getUrlMaps } = require('./handler_maps');
 
 puppeteer.use(StealthPlugin());;
-
-const urlMaps = {
-  'www.piaotia.com': {
-    menuEl: '.centent',
-    menuItemEl: '.centent ul a',
-    contentEl: '#content',
-    contentTitleEl: 'h1',
-    url: 'www.piaotia.com'
-  },
-  'www.seebook.net': {
-    menuEl: '#zhangjie',
-    menuItemEl: '#zhangjie a',
-    contentEl: '#neirong',
-    contentTitleEl: 'h1',
-    url: 'www.seebook.net'
-  },
-  '69shuba.cx': {
-    menuEl: '#catalog',
-    menuItemEl: '#catalog ul a',
-    contentEl: '#txtnav',
-    contentTitleEl: 'h1',
-      url: '69shuba.cx'
-  },
-  "www.69shuba.com": {
-    menuEl: '#catalog',
-    menuItemEl: '#catalog ul a',
-    contentEl: '.txtnav',
-    contentTitleEl: 'h1',
-    url: 'www.69shuba.com'
-  },
-  "www.quanben.io": {
-    menuEl: '.content_more .list3',
-    menuItemEl: '.content_more .list3 a',
-    contentEl: '#content',
-    contentTitleEl: 'h1',
-    url: 'www.quanben.io'
-  },
-  "www.dbxsd.com": {
-    menuEl: '#all-chapter .panel-body .row',
-    menuItemEl: '#all-chapter a',
-    contentEl: '#cont-body',
-    contentTitleEl: 'h1',
-    url: 'www.dbxsd.com'
-  },
-  "www.beqege.cc": {
-    menuEl: '#list',
-    menuItemEl: '#list a',
-    contentEl: '#content',
-    contentTitleEl: 'h1',
-    url: 'www.beqege.cc'
-  },
-  "www.cpafarm.com": {
-    menuEl: '.listmain',
-    menuItemEl: '.listmain a',
-    contentEl: '#chaptercontent',
-    contentTitleEl: 'h1',
-    url: 'www.cpafarm.com'
-  },
-  "www.qidian.com": {
-    menuEl: '#allCatalog',
-    menuItemEl: '#allCatalog .chapter-item a',
-    contentEl: 'main',
-    contentTitleEl: 'h1',
-    url: 'www.qidian.com'
-  },
-  "www.69yd.top": {
-    menuEl: '#chapter-list-grid',
-    menuItemEl: '#chapter-list-grid a',
-    contentEl: '.reading-content',
-    contentTitleEl: 'h2',
-    url: 'www.69yd.top'
-  },
-  "69shuba.tw": {
-    menuEl: '.last9',
-    menuItemEl: '.last9 a',
-    contentEl: '#nr1',
-    contentTitleEl: 'h1',
-    url: '69shuba.tw'
-  },
-  "www.nitianzw.com": {
-    menuEl: '#play_0',
-    menuItemEl: '#play_0 a',
-    contentEl: '#content',
-    contentTitleEl: 'h1',
-    url: 'www.nitianzw.com'
-  },
-  "twkan.com": {
-    menuEl: '#allchapter',
-    menuItemEl: '#allchapter a',
-    contentEl: '#txtcontent0',
-    contentTitleEl: 'h1',
-    url: 'twkan.com'
-  },
-}
 
 // 添加一个延迟函数
 function delay(ms) {
@@ -173,16 +79,13 @@ async function scrapeNovel(url, elItem, count) {
     // 添加随机延迟，例如在1000ms到5000ms之间
     const randomDelay = Math.floor(Math.random() * 1000) + 3000;
     await delay(randomDelay);
-    // console.log('开始抓取章节链接', link)
     // 对每个章节进行爬取
     await page.goto(link);
 
-    // console.log('导航到章节链接')
     await delay(1000);
     // 等待章节内容加载完成
     await page.waitForSelector(elItem.contentEl, { timeout: 0 });
 
-    // console.log('章节内容加载完成')
 
     // 获取章节标题和内容
     let title = await page.$eval(elItem.contentTitleEl, el => el.textContent);
@@ -199,7 +102,6 @@ async function scrapeNovel(url, elItem, count) {
     });
 
     // console.log('章节爬取完成',`Title: ${title}`);
-    // console.log(`Content: ${content}`);
     content = title + '\n' + content;
       content.replaceAll('。', '。\n')
     // 写入文件
@@ -229,13 +131,8 @@ async function scrapeNovel(url, elItem, count) {
   fileStream.end();
 
   await browser.close();
-  console.log(`\n爬取完成！共爬取 ${completed} 章，总耗时 ${Math.floor((Date.now() - startTime)/1000)}秒`);
-}
 
-async function scrapeNover_bypage(url) {
-  console.log('开始抓取小说...', url)
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
+  console.log(`\n爬取完成！共爬取 ${completed} 章，总耗时 ${Math.floor((Date.now() - startTime)/1000)}秒`);
 }
 
 try {
@@ -250,14 +147,12 @@ try {
   // const novelUrl = 'https://www.qidian.com/book/1045904862/';
   // const novelUrl = 'https://69shuba.tw/indexlist/28025/';
   // const novelUrl = 'https://www.nitianzw.com/19954/';
-  const novelUrl = 'https://www.qidian.com/book/1047797194/';
+  const novelUrl = 'https://www.qidian.com/book/1046632840/';
+
   // 获取链接域名部分
-  const parsedUrl = new URL(novelUrl);
-  let elItem = urlMaps[parsedUrl.hostname];
-  scrapeNovel(novelUrl, elItem,0);
-  // const novelUrl = 'https://www.quanben.io/n/guizeguaitan-wodejiarenbuzhengchang/list.html';
-  // let elItem = urlMaps['www.quanben.io'];
-  // scrapeNovel(novelUrl, elItem, 'www.quanben.io');
+  let elItem = getUrlMaps(novelUrl);
+  scrapeNovel(novelUrl, elItem, 0);
+ 
 } catch (error) {
   console.error(error)
 }
