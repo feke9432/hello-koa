@@ -147,7 +147,7 @@ try {
   // const novelUrl = 'https://www.qidian.com/book/1045904862/';
   // const novelUrl = 'https://69shuba.tw/indexlist/28025/';
   // const novelUrl = 'https://www.nitianzw.com/19954/';
-  const novelUrl = 'https://www.qidian.com/book/1046632840/';
+  const novelUrl = 'https://www.qidian.com/book/1048499963/';
 
   // 获取链接域名部分
   let elItem = getUrlMaps(novelUrl);

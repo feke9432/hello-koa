@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面内容抓取器 - 自动化版</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { width: 380px; font-family: system-ui, sans-serif; background: #f5f7fb; padding: 16px; border-radius: 20px; }
+        .container { display: flex; flex-direction: column; gap: 14px; }
+        .header { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #dce5f0; padding-bottom: 10px; }
+        .icon-wrapper { background: #1e6fdf; width: 36px; height: 36px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+        .icon-wrapper svg { width: 22px; height: 22px; fill: white; }
+        h2 { font-size: 1.3rem; font-weight: 600; color: #1a4d8c; }
+        .status-area { background: #eef3fc; border-radius: 14px; padding: 10px; font-size: 0.8rem; color: #1e4668; border-left: 4px solid #2b6eb3; }
+        .info-card { background: white; border-radius: 16px; padding: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+        .draft-preview { background: #f8fafd; border-radius: 14px; padding: 10px; max-height: 200px; overflow-y: auto; font-size: 0.75rem; font-family: monospace; white-space: pre-wrap; border: 1px solid #e2e8f0; }
+        .draft-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; font-weight: 500; }
+        button { background: #eef2f7; border: none; padding: 8px 12px; border-radius: 40px; font-weight: 500; cursor: pointer; transition: 0.2s; font-size: 0.8rem; }
+        .btn-primary { background: #1e6fdf; color: white; }
+        .btn-primary:hover { background: #0f5bb8; }
+        .btn-secondary { background: #e2e8f0; }
+        .btn-secondary:hover { background: #cbd5e1; }
+        .btn-danger { background: #fee2e2; color: #b91c1c; }
+        .btn-danger:hover { background: #fecaca; }
+        .btn-nav { background: #e9f0e6; color: #2c6e2c; border: 1px solid #bdd9b0; }
+        .btn-nav:hover { background: #d4e6cc; }
+        .btn-auto { background: #dbeafe; color: #1e3a8a; }
+        .btn-auto:hover { background: #bfdbfe; }
+        .button-group { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+        .auto-group { margin-top: 12px; padding-top: 8px; border-top: 1px dashed #cbd5e1; }
+        hr { margin: 10px 0; border: none; border-top: 1px solid #e2e8f0; }
+        .warning { font-size: 0.7rem; color: #d97706; margin-top: 6px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="icon-wrapper">
+            <svg viewBox="0 0 24 24"><path d="M5 20h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2Zm0-2v-3h14v3H5Zm0-5V8h14v5H5Z"/></svg>
+        </div>
+        <h2>页面捕获器·自动化</h2>
+    </div>
+
+    <div class="info-card">
+        <div class="status-area" id="statusArea">
+            <span id="statusMsg">✅ 就绪 | 点击下方按钮操作</span>
+        </div>
+        <div class="button-group" style="margin-top: 12px;">
+            <button id="appendBtn" class="btn-primary">➕ 追加当前页面</button>
+            <button id="exportBtn" class="btn-secondary">📎 导出全部草稿</button>
+            <button id="clearBtn" class="btn-danger">🗑️ 清空草稿</button>
+            <button id="nextChapterBtn" class="btn-nav">⏩ 下一章</button>
+        </div>
+        <div class="auto-group">
+            <div class="button-group">
+                <button id="startAutoBtn" class="btn-auto">▶ 开始自动化</button>
+                <button id="stopAutoBtn" class="btn-danger" disabled>⏹️ 停止自动化</button>
+            </div>
+            <div class="warning">
+                ⚠️ 自动化会循环执行：获取内容 → 追加 → 下一页 → 等待加载 → 重复。<br>
+                <strong>请保持此弹窗打开</strong>，否则自动化会停止。
+            </div>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="draft-header">
+            <span>📋 累积草稿 (<span id="draftCount">0</span> 条内容)</span>
+            <span style="font-size:0.7rem;">👇 最新预览</span>
+        </div>
+        <div class="draft-preview" id="draftPreview">
+            暂无内容，点击「追加」开始收集。
+        </div>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
